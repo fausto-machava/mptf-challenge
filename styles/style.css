@@ -110,7 +110,7 @@
 
 .main .shoe {
     background-color: var(--bgCard);
-    padding: 76px 62px;
+    padding: 10px 10px;
     margin-bottom: 30px;
 }
 
@@ -147,6 +147,7 @@
     position: absolute;
 }
 
+
 @media (min-width: 580px) {
     .main #home .text {
         margin-left: 40px;
@@ -166,4 +167,12 @@
         width: 300px;
         margin: 30px 10px;
     }
+}
+
+@media (max-width: 580px) {
+    .main .shoes{
+        flex-direction: column;
+        
+    }
+    
 }
